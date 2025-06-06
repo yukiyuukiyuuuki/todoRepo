@@ -8,5 +8,5 @@
 1. AWS資料1日目( "track training" > "クラウドサービス(AWS) 基礎講座 実践編" > "クラウドサービス(AWS) 基礎講座 実践編 day01" )の151pまでを参照し、webサーバインスタンスのコンソールに接続できる所まで構築します
 
 2. 次にSpring bootのビルドを行います
-  1. vscodeでSpring bootのワークスペース（フォルダ）に移動
-  2. 
+  1. vscodeでSpring bootのワークスペース（フォルダ）に移動(ブランチに注意)
+  2. `./mvnw package spring-boot:repackage`このコマンドを実行することでビルドを行い、
